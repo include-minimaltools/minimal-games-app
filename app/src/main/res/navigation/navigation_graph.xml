@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/navigation_graphic"
+    app:startDestination="@id/homeFragment">
+    <fragment
+        android:id="@+id/homeFragment"
+        android:name="com.minimaltools.minimalgamesapp.view.fragments.HomeFragment"
+        android:label="fragment_home"
+        tools:layout="@layout/fragment_home" >
+        <action
+            android:id="@+id/action_homeFragment_to_gamesFragment"
+            app:destination="@id/gamesFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/gamesFragment"
+        android:name="com.minimaltools.minimalgamesapp.view.fragments.GamesFragment"
+        android:label="fragment_games"
+        tools:layout="@layout/fragment_games" >
+        <action
+            android:id="@+id/action_gamesFragment_to_videoGameCompaniesFragment2"
+            app:destination="@id/videoGameCompaniesFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/videoGameCompaniesFragment"
+        android:name="com.minimaltools.minimalgamesapp.view.fragments.VideoGameCompaniesFragment"
+        android:label="fragment_video_game_companies"
+        tools:layout="@layout/fragment_video_game_companies" >
+        <action
+            android:id="@+id/action_videoGameCompaniesFragment2_to_eventsFragment2"
+            app:destination="@id/eventsFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/eventsFragment"
+        android:name="com.minimaltools.minimalgamesapp.view.fragments.EventsFragment"
+        android:label="fragment_events"
+        tools:layout="@layout/fragment_events" />
+</navigation>

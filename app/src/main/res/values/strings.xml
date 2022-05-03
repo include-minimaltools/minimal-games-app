@@ -1,3 +1,9 @@
 <resources>
     <string name="app_name">Minimal Games App</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="bottom_navigation_home">Inicio</string>
+    <string name="bottom_navigation_games">Juegos</string>
+    <string name="bottom_navigation_video_games_companies">Desarrolladoras</string>
+    <string name="bottom_navigation_event">Eventos</string>
 </resources>
