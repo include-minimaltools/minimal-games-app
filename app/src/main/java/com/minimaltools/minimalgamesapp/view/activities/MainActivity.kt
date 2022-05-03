@@ -9,6 +9,7 @@ import com.minimaltools.minimalgamesapp.R
 
 class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
+        setTheme(R.style.Theme_MinimalGamesApp)
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
