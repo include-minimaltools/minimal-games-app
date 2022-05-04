@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "642662116344",
+    "project_id": "minimal-games-app",
+    "storage_bucket": "minimal-games-app.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:642662116344:android:75ecf180e210dd6feb440d",
+        "android_client_info": {
+          "package_name": "com.minimaltools.minimalgamesapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "642662116344-hk74tasbl0ajku5sp546lo35uj91vg0t.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBv-3IyC_pgndYriq1ZaBS-o6QBF_nbp2U"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "642662116344-hk74tasbl0ajku5sp546lo35uj91vg0t.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

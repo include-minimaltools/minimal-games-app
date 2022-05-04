@@ -1,6 +1,7 @@
 plugins {
     id 'com.android.application'
     id 'org.jetbrains.kotlin.android'
+    id 'com.google.gms.google-services'
 }
 
 android {
@@ -59,4 +60,8 @@ dependencies {
     //Picasso
     implementation 'com.squareup.picasso:picasso:2.8'
     implementation 'de.hdodenhof:circleimageview:3.1.0'
+
+    // Firebase
+    implementation platform('com.google.firebase:firebase-bom:29.3.1')
+    implementation 'com.google.firebase:firebase-auth'
 }

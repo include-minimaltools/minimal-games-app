@@ -6,4 +6,10 @@
     <string name="bottom_navigation_games">Juegos</string>
     <string name="bottom_navigation_video_games_companies">Desarrolladoras</string>
     <string name="bottom_navigation_event">Eventos</string>
+
+    <!-- Login Activity -->
+    <string name="msg_email_required">Debe ingresar un correo</string>
+    <string name="msg_email_invalid">Correo invalido</string>
+    <string name="msg_password_required">Debe ingresar una contraseña</string>
+    <string name="msg_user_password_incorrect">Usuario y/o contraseña incorrecta</string>
 </resources>
