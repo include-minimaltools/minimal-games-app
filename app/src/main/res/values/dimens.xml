@@ -4,4 +4,8 @@
     <dimen name="logo_size">200dp</dimen>
     <dimen name="splash_screen_title_width">200dp</dimen>
     <dimen name="splash_screen_title_size">50sp</dimen>
+    <dimen name="cornerRadiusButton">10dp</dimen>
+    <dimen name="margin_sm_left">15dp</dimen>
+    <dimen name="margin_sm_right">15dp</dimen>
+    <dimen name="padding_sm">10dp</dimen>
 </resources>

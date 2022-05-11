@@ -16,6 +16,15 @@ class LoginActivity : AppCompatActivity() {
         binding = ActivityLoginBinding.inflate(layoutInflater)
 
         with(binding) {
+            btnSignup.setOnClickListener {
+                try{
+                    val intentSignupActivity = Intent(this@LoginActivity, SignupActivity::class.java)
+                    startActivity(intentSignupActivity)
+                } catch (e: Exception) {
+                    println(e.message)
+                }
+            }
+
             btnLogin.setOnClickListener {
                 try {
                     val email = inputEmail.text.toString()

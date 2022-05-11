@@ -23,7 +23,10 @@
             android:name=".view.activities.MainActivity"
             android:exported="false"
             android:theme="@style/SplashScreenTheme">
-
+        </activity>
+        <activity
+            android:name=".view.activities.SignupActivity"
+            android:exported="false">
         </activity>
     </application>
 
