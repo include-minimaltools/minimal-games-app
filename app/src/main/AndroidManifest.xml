@@ -10,7 +10,7 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.MinimalGamesApp">
         <activity
-            android:name=".view.activities.LoginActivity"
+            android:name="com.minimaltools.minimalgamesapp.view.view.activity.LoginActivity"
             android:exported="true"
             android:theme="@style/SplashScreenTheme">
             <intent-filter>
@@ -20,12 +20,12 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".view.activities.MainActivity"
+            android:name="com.minimaltools.minimalgamesapp.view.view.activity.MainActivity"
             android:exported="false"
             android:theme="@style/SplashScreenTheme">
         </activity>
         <activity
-            android:name=".view.activities.SignupActivity"
+            android:name="com.minimaltools.minimalgamesapp.view.view.activity.SignupActivity"
             android:exported="false">
         </activity>
     </application>

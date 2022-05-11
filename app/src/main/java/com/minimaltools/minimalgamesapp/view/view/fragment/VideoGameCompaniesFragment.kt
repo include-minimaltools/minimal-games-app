@@ -1,4 +1,4 @@
-package com.minimaltools.minimalgamesapp.view.fragments
+package com.minimaltools.minimalgamesapp.view.view.fragment
 
 import android.os.Bundle
 import androidx.fragment.app.Fragment

@@ -1,4 +1,4 @@
-package com.minimaltools.minimalgamesapp.view.activities
+package com.minimaltools.minimalgamesapp.view.view.activity
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle

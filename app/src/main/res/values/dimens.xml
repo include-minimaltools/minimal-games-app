@@ -8,4 +8,13 @@
     <dimen name="margin_sm_left">15dp</dimen>
     <dimen name="margin_sm_right">15dp</dimen>
     <dimen name="padding_sm">10dp</dimen>
+    <dimen name="recycler_view_margin_horizontal">5dp</dimen>
+    <dimen name="recycler_view_margin_bottom">@dimen/bottom_navigation_height</dimen>
+    <dimen name="margin_sm">10dp</dimen>
+    <dimen name="game_item_corner_radius">5dp</dimen>
+    <dimen name="game_item_height">300dp</dimen>
+    <dimen name="game_item_content_padding">15dp</dimen>
+    <dimen name="game_item_name_textsize">25sp</dimen>
+    <dimen name="game_item_category_textsize">18sp</dimen>
+    <dimen name="game_item_more_textsize">15sp</dimen>
 </resources>

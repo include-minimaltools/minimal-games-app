@@ -26,4 +26,8 @@
     <string name="msg_confirm_password_required">Debe confirmar su contraseña</string>
     <string name="msg_account_created">Tu cuenta ha sido creada satisfactoriamente</string>
     <string name="msg_account_created_error">No se ha podido registrar su cuenta</string>
+    <string name="game">Juego</string>
+    <string name="category">Categoría</string>
+    <string name="fav_game">Me gusta</string>
+    <string name="price">Precio</string>
 </resources>

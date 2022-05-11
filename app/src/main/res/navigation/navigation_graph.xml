@@ -6,7 +6,7 @@
     app:startDestination="@id/homeFragment">
     <fragment
         android:id="@+id/homeFragment"
-        android:name="com.minimaltools.minimalgamesapp.view.fragments.HomeFragment"
+        android:name="com.minimaltools.minimalgamesapp.view.view.fragment.HomeFragment"
         android:label="fragment_home"
         tools:layout="@layout/fragment_home" >
         <action
@@ -15,7 +15,7 @@
     </fragment>
     <fragment
         android:id="@+id/gamesFragment"
-        android:name="com.minimaltools.minimalgamesapp.view.fragments.GamesFragment"
+        android:name="com.minimaltools.minimalgamesapp.view.view.fragment.GamesFragment"
         android:label="fragment_games"
         tools:layout="@layout/fragment_games" >
         <action
@@ -24,7 +24,7 @@
     </fragment>
     <fragment
         android:id="@+id/videoGameCompaniesFragment"
-        android:name="com.minimaltools.minimalgamesapp.view.fragments.VideoGameCompaniesFragment"
+        android:name="com.minimaltools.minimalgamesapp.view.view.fragment.VideoGameCompaniesFragment"
         android:label="fragment_video_game_companies"
         tools:layout="@layout/fragment_video_game_companies" >
         <action
@@ -33,7 +33,7 @@
     </fragment>
     <fragment
         android:id="@+id/eventsFragment"
-        android:name="com.minimaltools.minimalgamesapp.view.fragments.EventsFragment"
+        android:name="com.minimaltools.minimalgamesapp.view.view.fragment.EventsFragment"
         android:label="fragment_events"
         tools:layout="@layout/fragment_events" />
 </navigation>
